@@ -5,7 +5,7 @@ const reminder = (action) => {
         text: action.text,
         id: Math.random()
     }
-}
+};
 
 const reminders = (state=[], action) => {
     let reminders = null;
@@ -17,6 +17,6 @@ const reminders = (state=[], action) => {
         default:
             return state;
     }
-}
+};
 
 export default reminders;
