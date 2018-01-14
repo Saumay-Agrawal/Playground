@@ -2,3 +2,14 @@ html, body {
     margin: 0px;
     height: 100%;
 }
+
+g.hidden line,
+g.hidden path {
+    display: none
+}
+
+path {
+    stroke: blue;
+    stroke-width: 2px;
+    fill: none;
+}
