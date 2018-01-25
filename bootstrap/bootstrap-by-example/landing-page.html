@@ -9,22 +9,30 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <style>
+        .nowrap {
+            white-space: nowrap;
+        }
+
+        @media (max-width: 48em) {
+            table .btn{
+                font-size: 0.75rem;
+                font-size: 3.5vw;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<div class="container-fluid">
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>The Landing Page</h1>
-                    <h2 class="h4">This landing page is made using bootstrap</h2>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Link Button</a>
-                </div>
-            </div>
+<div class="container">
+    <div class="row jumbotron">
+        <div class="col-md-12">
+            <h1>The Landing Page</h1>
+            <h2 class="h4">This landing page is made using bootstrap</h2>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Link Button</a>
         </div>
     </div>
-    <div class="container"><div class="row">
+    <div class="row">
         <div class="offset-md-4 col-md-4">
             <h3>Some text with <small>secondary text</small></h3>
         </div>
@@ -38,7 +46,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-5">
             <code>
                 <pre>
                 function () {
@@ -47,7 +55,7 @@
                 </pre>
             </code>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-xs-7">
             <img src="http://via.placeholder.com/1920x1080" alt="fummy" class="img-fluid">
         </div>
     </div>
@@ -225,7 +233,7 @@
                 <abbr title="Phone">P:</abbr> 044-8989898
             </address>
         </div>
-    </footer></div>
+    </footer>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
